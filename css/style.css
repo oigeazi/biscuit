@@ -1,7 +1,9 @@
 :root {
     --titlecolor: #000;
     --textcolor: #2C2C2E;
-    --strong: #3040E5;
+    --spancolor: #3040E5;
+    --background: #fff;
+    --colorHeader: #fff;
 }
 
 * {
@@ -74,7 +76,8 @@ p {
 span {
     text-decoration-line: underline;
     cursor: pointer;
-    color: var(--strong);
+    font-size: large;
+    color: var(--spancolor);
 }
 
 strong {
@@ -96,8 +99,7 @@ main {
     flex-direction: column;
     align-items: center;
 
-    width: 100vw;
-    height: 100vh;
+    background-color: var(--background);
 }
 
 header {
@@ -106,6 +108,7 @@ header {
 
     padding: 24px 146px;
     width: 100%;
+    background-color: var(--colorHeader);
 }
 
 header div,
