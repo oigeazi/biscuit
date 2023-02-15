@@ -1,0 +1,184 @@
+:root {
+    --titlecolor: #000;
+    --textcolor: #2C2C2E;
+    --strong: #3040E5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--titlecolor);
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+
+    cursor: pointer;
+    list-style: none;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 142.69%;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    margin-bottom: 16px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 146.69%;
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    margin: 16px 0px;
+}
+
+p,
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 192%;
+
+    text-align: center;
+}
+
+p {
+    color: var(--textcolor);
+}
+
+span {
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: var(--strong);
+}
+
+strong {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--titlecolor);
+}
+
+li img {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 24px 146px;
+    width: 100vw;
+}
+
+header div,
+nav,
+li {
+    display: flex;
+    align-items: center;
+}
+
+header div {
+    gap: 14px;
+}
+
+nav {
+    gap: 24px;
+}
+
+nav div {
+    gap: 8px;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 70px;
+    margin-bottom: 158px;
+    width: 838px;
+}
+
+.div-button {
+    display: flex;
+    gap: 28px;
+
+    margin: 56px 0px 40px 0px;
+
+    cursor: pointer;
+}
+
+.div-button div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+button {
+    all: unset;
+    width: 166px;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.69%;
+
+    text-align: center;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+
+    border-radius: 42px;
+    color: #FFFFFF;
+    background: #3040E5;
+
+    cursor: pointer;
+}
+
+.icons-social {
+    display: flex;
+    gap: 40px;
+}
+
+.icons-social img {
+    cursor: pointer;
+}
