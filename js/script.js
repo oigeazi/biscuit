@@ -48,7 +48,7 @@ const img = document.querySelectorAll('img');
 
 function changeTheme() {
     if (!localStorage.getItem('theme') || localStorage.getItem('theme') == 'light') {
-        theme.src = '/assets/sun.png';
+        theme.src = './assets/sun.png';
 
         root.style.setProperty('--titlecolor', '#000');
         root.style.setProperty('--textcolor', '#2C2C2E');
@@ -61,7 +61,7 @@ function changeTheme() {
         }
         return;
     }
-    theme.src = '/assets/moon.png';
+    theme.src = './assets/moon.png';
 
     root.style.setProperty('--titlecolor', '#fff');
     root.style.setProperty('--textcolor', 'rgba(255, 255, 255, 0.74)');
